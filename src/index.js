@@ -15,7 +15,7 @@ app.use("/recipes", recipesRouter);
 mongoose.set('strictQuery', false); // Suppress deprecation warning
 
 mongoose.connect(
-  "mongodb+srv://sampathreddy:12345@cluster0.bwegp.mongodb.net/recipeshare?retryWrites=true&w=majority&appName=Cluster0",
+  "mongodb+srv://sampathreddy:12345@cluster0.jk1o9.mongodb.net/recipeshare?retryWrites=true&w=majority&appName=Cluster0",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
